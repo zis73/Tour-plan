@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Muli', sans-serif;
+  color: #333;
 }
 
 .container {
@@ -362,6 +363,11 @@ template {
   padding-bottom: 40px;
 }
 
+.header__search {
+  margin-bottom: auto;
+  margin-left: 108px;
+}
+
 .search {
   display: flex;
   position: relative;
@@ -409,5 +415,6 @@ template {
   font-size: 14px;
   line-height: 18px;
   color: #333;
+  margin-left: 18px;
 }
 /*# sourceMappingURL=style.css.map */
