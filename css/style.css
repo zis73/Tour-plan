@@ -81,7 +81,7 @@
 @font-face {
   font-family: 'Muli';
   src: url("Muli-Light.eot");
-  src: local("Muli Light"), local("Muli-Light"), url("Muli-Light.eot?#iefix") format("embedded-opentype"), url("Muli-Light.woff2") format("woff2"), url("Muli-Light.woff") format("woff"), url("Muli-Light.ttf") format("truetype");
+  src: local("Muli Light"), local("Muli-Light"), url("Muli-Light.woff2") format("woff2"), url("Muli-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
@@ -89,7 +89,7 @@
 @font-face {
   font-family: 'Muli';
   src: url("Muli-ExtraBold.eot");
-  src: local("Muli ExtraBold"), local("Muli-ExtraBold"), url("Muli-ExtraBold.eot?#iefix") format("embedded-opentype"), url("Muli-ExtraBold.woff2") format("woff2"), url("Muli-ExtraBold.woff") format("woff"), url("Muli-ExtraBold.ttf") format("truetype");
+  src: local("Muli ExtraBold"), local("Muli-ExtraBold"), url("Muli-ExtraBold.woff2") format("woff2"), url("Muli-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
@@ -97,21 +97,21 @@
 @font-face {
   font-family: 'Muli';
   src: url("Muli-ExtraBoldItalic.eot");
-  src: local("Muli ExtraBold Italic"), local("Muli-ExtraBoldItalic"), url("Muli-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("Muli-ExtraBoldItalic.woff2") format("woff2"), url("Muli-ExtraBoldItalic.woff") format("woff"), url("Muli-ExtraBoldItalic.ttf") format("truetype");
-  font-weight: 800;
+  src: local("Muli ExtraBold Italic"), local("Muli-ExtraBoldItalic"), url("Muli-ExtraBoldItalic.woff2") format("woff2"), url("Muli-ExtraBoldItalic.woff") format("woff");
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Muli';
   src: url("Muli-Regular.eot");
-  src: local("Muli Regular"), local("Muli-Regular"), url("Muli-Regular.eot?#iefix") format("embedded-opentype"), url("Muli-Regular.woff2") format("woff2"), url("Muli-Regular.woff") format("woff"), url("Muli-Regular.ttf") format("truetype");
+  src: local("Muli Regular"), local("Muli-Regular"), url("Muli-Regular.woff2") format("woff2"), url("Muli-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 * {
   box-sizing: border-box;
+  border: 1px solid black;
 }
 
 body {
@@ -475,8 +475,7 @@ template {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 0;
 }
 
 .navbar-top__menu-button {
@@ -586,8 +585,7 @@ template {
     max-width: 340px;
   }
   .navbar-menu {
-    padding-top: 22px;
-    padding-bottom: 22px;
+    padding: 22px 0;
   }
   .navbar-menu__link {
     font-size: 12px;
